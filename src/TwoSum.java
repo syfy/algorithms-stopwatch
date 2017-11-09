@@ -28,10 +28,10 @@ public class TwoSum {
 	}
 
 	public static void main(String[] args) {
-		
+		int[] input = {1,2,3,4,2,-1};
 	
 		StopWatch timer = new StopWatch();
-		int count = Integer.MAX_VALUE;
+		int count =count(input);
 		StdOut.println("elapsed time = " + timer.elapsedTime());
 		StdOut.println(count);
 	}
